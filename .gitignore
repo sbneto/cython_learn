@@ -1,0 +1,8 @@
+.idea
+__pycache__
+build
+
+*.c
+*.pyd
+*.pyc
+*.h
