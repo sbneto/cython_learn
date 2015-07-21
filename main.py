@@ -1,7 +1,8 @@
 __author__ = 'Samuel'
 
+import sys
 import subprocess
-subprocess.call(['C:/Anaconda3/python.exe', 'setup.py', 'build_ext', '--inplace'])
+subprocess.call([sys.executable, 'setup.py', 'build_ext', '--inplace'])
 import utils
 import utils2
 import time
